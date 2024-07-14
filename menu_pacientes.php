@@ -22,7 +22,7 @@ $result = $conn->query($sql);
     <h2>Selecione um Paciente</h2>
     <ul>
         <?php while ($row = $result->fetch_assoc()) { ?>
-            <li><a href="evolucao_paciente.php?id=<?php echo $row['id']; ?>"><?php echo $row['nome_completo']; ?></a></li>
+            <li><a href="evolucao_pacientes.php?id=<?php echo $row['id']; ?>"><?php echo $row['nome_completo']; ?></a></li>
         <?php } ?>
     </ul>
 </body>

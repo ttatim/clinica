@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <img src="imgs/carlasub.jpg" alt="Logo">
         <h1>Cadastro de Pacientes</h1>
     </header>
-    <form method="post" action="cadastro_paciente.php">
+    <form method="post" action="cadastro_pacientes.php">
         <label for="nome">Nome Completo</label>
         <input type="text" id="nome" name="nome" required>
 

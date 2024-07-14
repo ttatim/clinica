@@ -41,7 +41,7 @@ $evolucoes = $conn->query($sql);
         <a href="menu_pacientes.php">Menu de Pacientes</a>
     </nav>
     <h2>Adicionar Evolução</h2>
-    <form method="post" action="evolucao_paciente.php?id=<?php echo $paciente_id; ?>">
+    <form method="post" action="evolucao_pacientes.php?id=<?php echo $paciente_id; ?>">
         <input type="hidden" name="paciente_id" value="<?php echo $paciente_id; ?>">
         <label for="descricao">Descrição</label>
         <textarea id="descricao" name="descricao" required></textarea>
